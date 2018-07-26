@@ -84,5 +84,12 @@
 @import "vendor/owl-carousel";
 @import "vendor/fontawesome";
 
-// Custom
-@import "custom";
+// Template Parts
+@import "template-parts/general";
+@import "template-parts/nav";
+@import "template-parts/header";
+@import "template-parts/footer";
+@import "template-parts/home";
+@import "template-parts/about";
+@import "template-parts/services";
+@import "template-parts/contact";

@@ -1,0 +1,121 @@
+/* ===================================== */
+/* ============= HOME PAGE ============= */
+/* ===================================== */
+.video-hero{
+	height: 100vh;
+	overflow: hidden;
+	background: $black;
+	video{
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 0;
+		opacity: .4;
+	}
+	.logo{
+		left: 8%;
+		top: 10%;
+	}
+	.meta{
+    bottom: 10%;
+    left: 6%;
+    width: 80%;
+    max-width: 900px;
+	}
+	blockquote{
+		border-left: 2px solid $orange;
+		padding-top: 0;
+		p{
+			color:$white;
+		}
+	}
+	h1,.btn-arrow{
+		color:$white;
+	}
+}
+// who we are
+.who{
+	padding: 8% 0;
+	.gray-box{
+		background-color:#f4f4f4;
+		padding:20% 5% 5%;
+	}
+	img{
+		right: 0;
+		top: 50%;
+		max-width: 50%;
+		transform: translateY(-50%);
+	}
+}
+.what{
+	padding: 5% 0 13%;
+	.grid-margin-x{
+		align-items:center;
+	}
+	.purple-box{
+		background-color: $purple;
+		height: 70%;
+		width: 40%;
+		bottom: -30px;
+		left: -10px;
+	}
+	.orbit-bullets{
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		margin: 0;
+		button{
+			width: 1rem;
+			height: 1rem;
+			background-color:$white;
+			&.is-active{
+				background-color:$orange;
+			}
+		}
+	}
+}
+.why{
+	@include center-cover;
+	height: 100vh;
+	.grid-container,.grid-x{
+		height: 100%;
+	}
+	.cell{
+		align-self:flex-end;
+		position: relative;
+		top: -150px;
+	}
+	.meta{
+		h3,p,a{
+			color:$white;
+		}
+	}
+}
+.tools{
+	padding: 10% 0;
+	.owl-carousel {
+		.owl-item{
+			div{
+				height: 100px;
+				display:flex;
+				align-items:center;
+				justify-content:center;
+			}
+		}
+		.owl-item img{
+		  width:auto;
+	  }
+	  .owl-prev,.owl-next{
+	  	position:absolute;
+	  }
+	  .owl-prev{
+	  	left: -30px;
+	  	top: 50%;
+	  	transform:translateY(-100%);
+	  }
+	  .owl-next{
+	  	right: -30px;
+	  	top: 50%;
+	  	transform:translateY(-100%);
+	  }
+	}
+}
