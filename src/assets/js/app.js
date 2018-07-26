@@ -11,25 +11,29 @@ import Foundation from 'foundation-sites';
 $(document).foundation();
 
 $(document).ready(function(){
+  homeCarousel();
+});
+
+function homeCarousel(){
   $(".owl-carousel").owlCarousel({
-  	nav   : true,
-  	loop  : true,
-  	items : 5,
-  	margin: 20,
-  	autoplay:true,
+    nav   : true,
+    loop  : true,
+    items : 5,
+    margin: 20,
+    autoplay:true,
     autoplayTimeout:1500,
     autoplayHoverPause:true,
-  	navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
-  	responsive:{
-	    0:{
-	        items:1
-	    },
-	    600:{
-	        items:3
-	    },
-	    1000:{
-	        items:5
-	    }
+    navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+    responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
     }
   });
-});
+}
