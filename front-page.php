@@ -10,7 +10,7 @@
 		<h1>Plan. Execute. Analyze. Repeat.</h1>
 		<blockquote>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium libero soluta eius nulla veniam sint sunt. Cupiditate, in, reprehenderit. Numquam temporibus adipisci amet minima natus, hic laboriosam sapiente veniam totam.</p>
-		  <a href="#" class="btn-arrow">Let's work together -></a>
+		  <a href="#" class="btn-arrow white">Let's work together <i class="fas fa-arrow-right"></i></a>
 		</blockquote>
 	</aside>
 </section>
@@ -23,7 +23,7 @@
 					<div class="cell medium-8">
 						<h3>Who We Are</h3>
 						<p>We are a “Type A” company with a “No BS” approach. Since 1996, we’ve built a rock-solid reputation for delivering results, whether that’s helping our client partners win new business, influence a tough crowd, or be on the cutting edge. At MIC, we want to positively impact every client we engage with. We strive to inspire, challenge, and show our true colors in everything we say and do. And that, ladies and gentlemen, is what it means to Think In Color.</p>
-						<a href="#" class="btn-arrow">More About Us -></a>
+						<a href="#" class="btn-arrow orange">More About Us <i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 			<div class="medium-5 cell">
 				<h3>What We Do</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima at inventore sed corporis modi nisi reiciendis veritatis incidunt provident excepturi ullam illum molestias, consequatur eveniet rerum saepe, omnis quisquam.</p>
-				<a href="#" class="btn-arrow">Explore Our Services -></a>
+				<a href="#" class="btn-arrow orange">Explore Our Services <i class="fas fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -80,7 +80,7 @@
 				<aside class="meta">
 					<h3>Why We're Different</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quas necessitatibus commodi provident sed tempore ullam eveniet, tempora, excepturi officiis amet corrupti, error! Nostrum quasi, dolores dignissimos quam beatae ab?</p>
-					<a href="#" class="btn-arrow">Let's Talk -></a>
+					<a href="#" class="btn-arrow orange">Let's Talk <i class="fas fa-arrow-right"></i></a>
 				</aside>
 			</div>
 		</div>
