@@ -20,7 +20,7 @@
   	    	<div class="grid-x">
   	    		<div class="medium-7 medium-offset-1 cell">
   	    			<h2>Let's Work Together</h2>
-  	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo, blanditiis eaque itaque dignissimos adipisci minima eos assumenda quas quidem harum sequi ea?</p>
+  	    			<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo, blanditiis eaque itaque dignissimos adipisci minima eos assumenda quas quidem harum sequi ea?</p></blockquote>
   	    		</div>
   	    		<div class="medium-12 cell">
   	    			<a href="#" class="contact-us btn-arrow white">Contact Us <i class="fas fa-arrow-right"></i></a>
