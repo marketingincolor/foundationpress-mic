@@ -10,13 +10,19 @@
 		left: 10%;
 		top: 50%;
 		transform: translateY(-50%);
-		padding:8% 0;
+		padding:6% 0;
 		background-color:$gray_text;
 		h2,p,a{
 			color:$white;
 		}
+		h2{
+			font-size: 60px;
+		}
 		p{
 			margin-bottom: 30px;
+		}
+		blockquote{
+			padding-top: 0;
 		}
 		.contact-us{
 			background-color:$orange;
@@ -49,12 +55,19 @@
 					margin-right: 15px;
 				}
 			}
-		}
-		.social-icons{
-			list-style-type:none;
-			margin-left: 0;
-			li{
-				display:inline-block;
+			span,.social-icons{
+				line-height: 1.8em;
+			}
+			.social-icons{
+				list-style-type:none;
+				margin-left: 0;
+				li{
+					display:inline-block;
+					margin-right: 8px;
+				}
+				i{
+					font-size: 14px;
+				}
 			}
 		}
 	}
