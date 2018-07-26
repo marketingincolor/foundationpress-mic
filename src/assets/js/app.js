@@ -16,6 +16,10 @@ $(document).ready(function(){
   	loop  : true,
   	items : 5,
   	margin: 20,
+  	autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+  	navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
   	responsive:{
 	    0:{
 	        items:1

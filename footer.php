@@ -20,7 +20,7 @@
   	    	<div class="grid-x">
   	    		<div class="medium-7 medium-offset-1 cell">
   	    			<h2>Let's Work Together</h2>
-  	    			<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo, blanditiis eaque itaque dignissimos adipisci minima eos assumenda quas quidem harum sequi ea?</p></blockquote>
+  	    			<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo.</p></blockquote>
   	    		</div>
   	    		<div class="medium-12 cell">
   	    			<a href="#" class="contact-us btn-arrow white">Contact Us <i class="fas fa-arrow-right"></i></a>
@@ -41,10 +41,10 @@
 							<span>(813)258-3771</span><br>
 							<span>
 								<ul class="social-icons">
-									<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/MarketingInColor/"><i class="fab fa-facebook-square"></i></a></li>
+									<li><a href="https://twitter.com/mktgincolor"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/marketing-in-color"><i class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://www.instagram.com/mktgincolor/"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 						  </span>
 						</li>
