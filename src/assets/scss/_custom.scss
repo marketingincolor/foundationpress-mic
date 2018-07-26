@@ -10,8 +10,22 @@ section{
 .relative{
 	position:relative;
 }
+h1,h2,h3,h4,h5{
+	font-family: "clarendon-text-pro";
+}
 h1,h2,h3,h4,h5,p,a,li,div{
 	color:$gray_text;
+}
+.btn-arrow{
+	text-transform:uppercase;
+	font-family: "futura-pt";
+	font-weight: 600;
+	&.white i{
+		color:$white;
+	}
+	&.orange i{
+		color:$orange;
+	}
 }
 /* ===================================== */
 /* ============= NAVIGATION ============ */
@@ -28,8 +42,8 @@ h1,h2,h3,h4,h5,p,a,li,div{
 /* ===================================== */
 .video-hero{
 	height: 100vh;
-	padding-bottom: 8%;
 	overflow: hidden;
+	background: $black;
 	video{
 		min-width: 100%;
 		min-height: 100%;
@@ -41,10 +55,20 @@ h1,h2,h3,h4,h5,p,a,li,div{
 		top: 10%;
 	}
 	.meta{
-    bottom: 15%;
-    left: 8%;
+    bottom: 10%;
+    left: 6%;
     width: 80%;
     max-width: 900px;
+	}
+	blockquote{
+		border-left: 2px solid $orange;
+		padding-top: 0;
+		p{
+			color:$white;
+		}
+	}
+	h1,.btn-arrow{
+		color:$white;
 	}
 }
 // who we are
@@ -162,6 +186,10 @@ h1,h2,h3,h4,h5,p,a,li,div{
 			text-align: right;
 			position: relative;
 			left: -10px;
+			font-size: 24px;
+			i{
+				font-size: 24px;
+			}
 		}
 	}
 	.bottom-footer{

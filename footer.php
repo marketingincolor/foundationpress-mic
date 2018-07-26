@@ -23,7 +23,7 @@
   	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo, blanditiis eaque itaque dignissimos adipisci minima eos assumenda quas quidem harum sequi ea?</p>
   	    		</div>
   	    		<div class="medium-12 cell">
-  	    			<a href="#" class="contact-us">Contact Us -></a>
+  	    			<a href="#" class="contact-us btn-arrow white">Contact Us <i class="fas fa-arrow-right"></i></a>
   	    		</div>
   	    	</div>
   	    </div>
