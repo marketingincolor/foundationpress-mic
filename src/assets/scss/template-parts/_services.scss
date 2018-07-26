@@ -1,0 +1,50 @@
+/* ===================================== */
+/* =========== SERVICES PAGE =========== */
+/* ===================================== */
+.page-header{
+	padding:10% 0;
+	.logo{
+		left: 8%;
+		top: 10%;
+	}
+}
+.top-title{
+	//padding: 8% 0;
+}
+.strategize, .analyze{
+	padding: 4% 0;
+	.graphic{
+		min-width: 100%;
+		min-height: 100%;
+		z-index:1;
+	}
+	.gray-box{
+		background-color:#f4f4f4;
+		padding:20% 5% 5%;
+	}
+	img{
+		right: 0;
+		transform: translateY(-10%);
+		width:50vw;
+	}
+}
+.plan, .repeat{
+	padding: 4% 0;
+	.graphic{
+		min-width: 100%;
+		min-height: 100%;
+		z-index:1;
+	}
+	.gray-box{
+		background-color:#f4f4f4;
+		padding:20% 5% 5%;
+	}
+	img{
+		left: 0;
+		transform: translateY(25%);
+		width:50vw;
+	}
+}
+.execute{
+	padding: 4% 0;
+}
