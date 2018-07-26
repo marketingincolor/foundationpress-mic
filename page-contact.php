@@ -25,7 +25,6 @@
 				<div class="grid-x">
 					<div class="cell medium-10">
 						<?php echo do_shortcode('[ninja_form id=1]'); ?>
-						<a href="#" class="btn-arrow white">Submit Form <i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>

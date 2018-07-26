@@ -33,6 +33,10 @@
 			position: relative;
 			left: -10px;
 			font-size: 24px;
+			box-shadow: 5px 5px #484848;
+			@media(max-width:768px){
+				width: 300px;
+			}
 			i{
 				font-size: 24px;
 			}

@@ -10,6 +10,8 @@
 ?>
 
 <footer class="footer">
+  <?php if (!is_page_template('page-contact.php')) { ?>
+    
   <div class="top-footer">
   	<div class="grid-container fluid">
   	  <div class="grid-x relative">
@@ -30,6 +32,8 @@
   	  </div>
   	</div>
   </div>
+
+  <?php } ?>
   <div class="bottom-footer">
   	<div class="grid-container">
   		<div class="grid-x">
