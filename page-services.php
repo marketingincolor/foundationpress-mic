@@ -3,16 +3,6 @@
 	get_header();
 ?>
 
-<section class="page-header relative">
-	<div class="grid-container">
-		<div class="grid-x">
-			<div class="small-12 cell">
-				<a href="<?php echo site_url(); ?>" class="logo absolute"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/gray-logo.png" alt="<?php bloginfo('title'); ?>"></a>
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="top-title">
 	<div class="grid-container">
 		<div class="grid-x">
