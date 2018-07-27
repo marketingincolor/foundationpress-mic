@@ -10,6 +10,12 @@ section{
 .relative{
 	position:relative;
 }
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
 p{
 	font-size: 20px;
 	font-family: 'futura-pt';
@@ -41,6 +47,10 @@ h3{
 	&.orange i{
 		color:$orange;
 	}
+}
+.icon{
+	height:100%;
+	margin:5px 15px 0 0;
 }
 .top-title{
 	padding: 5% 0;
