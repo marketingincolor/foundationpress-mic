@@ -11,11 +11,12 @@ import Foundation from 'foundation-sites';
 $(document).foundation();
 
 $(document).ready(function(){
-  homeCarousel();
+  toolsCarousel();
+  teamCarousel();
 });
 
-function homeCarousel(){
-  $(".owl-carousel").owlCarousel({
+function toolsCarousel(){
+  $(".tools-carousel").owlCarousel({
     nav   : true,
     loop  : true,
     items : 5,
@@ -32,6 +33,30 @@ function homeCarousel(){
           items:3
       },
       1000:{
+          items:5
+      }
+    }
+  });
+}
+
+function teamCarousel(){
+  $(".team-carousel").owlCarousel({
+    nav   : true,
+    loop  : true,
+    items : 5,
+    margin: 20,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+    responsive:{
+      0:{
+          items:1
+      },
+      768:{
+          items:3
+      },
+      1024:{
           items:5
       }
     }

@@ -46,6 +46,7 @@
 						<h3>Meet the Team</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh. Pellentesque eu dolor vitae lectus hendrerit convallis. Phasellus tincidunt et est sodales gravida. Praesent lacinia commodo luctus.</p>
 					</div>
+					<?php get_template_part('template-parts/team-carousel'); ?>
 				</div>
 			</div>
 		</div>
