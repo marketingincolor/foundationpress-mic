@@ -95,7 +95,7 @@
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eligendi consequuntur suscipit reprehenderit, inventore corrupti fugit praesentium nam, nemo</p>
 			</div>
 			<div class="medium-10 medium-offset-1 cell">
-				<div class="owl-carousel">
+				<div class="tools-carousel owl-carousel">
 				  <div>
 				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/wordpress.png" alt="">
 				  </div>
