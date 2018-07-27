@@ -67,28 +67,34 @@
 				</div>
 			</div>
 			<div class="cell medium-12">
-				<div class="grid-x">
+				<div class="grid-x grid-margin-x">
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/branding.svg" alt="marketing in color branding"></span>
 						<h4>Branding</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/email.svg" alt="marketing in color email marketing"></span>
 						<h4>Email Marketing</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/webdesign.svg" alt="marketing in color design"></span>
 						<h4>Web Design</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/video.svg" alt="marketing in color video production"></span>
 						<h4>Video Production</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/digital.svg" alt="marketing in color digital marketing"></span>
 						<h4>Digital Marketing</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/development.svg" alt="marketing in color development"></span>
 						<h4>Development</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>

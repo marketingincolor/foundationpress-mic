@@ -64,30 +64,34 @@
 				</div>
 			</div>
 			<div class="cell medium-12">
-				<div class="grid-x">
+				<div class="grid-x grid-margin-x">
 					<div class="cell medium-6">
-						<h4>Branding</h4>
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/partner.svg" alt="marketing in color partner"></span>
+						<h4>Be a Partner</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
-						<h4>Email Marketing</h4>
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/give.svg" alt="marketing in color give back"></span>
+						<h4>Give Back</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
-						<h4>Web Design</h4>
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/cultivate.svg" alt="marketing in cultivate growth"></span>
+						<h4>Cultivate Growth</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
-						<h4>Video Production</h4>
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/prosper.svg" alt="marketing in color prosper"></span>
+						<h4>Prosper</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
-						<h4>Digital Marketing</h4>
+						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/creative.svg" alt="marketing in color digital stay creative"></span>
+						<h4>Stay Creative</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 					<div class="cell medium-6">
-						<h4>Development</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
+
 					</div>
 				</div>
 			</div>
