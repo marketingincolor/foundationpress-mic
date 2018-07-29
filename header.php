@@ -19,8 +19,49 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+	<!-- Desktop/Tablet Menu -->
 	<nav class="left-menu" role="navigation">
-		
+		<button id="hamburger" class="hamburger hamburger--arrowturn" type="button" title="Open Menu">
+		  <span class="hamburger-box">
+		    <span class="hamburger-inner"></span>
+		  </span>
+		</button>
+		<!-- Nav Menu Items -->
+		<ul class="nav-menu">
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/services">Services</a></li>
+			<li><a href="/contact-us">Contact Us</a></li>
+		</ul>
 	</nav>
+
+	<!-- Mobile Menu -->
+	<nav class="mobile-menu">
+		<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+		  <div class="burger-bar">
+		  	<button id="top-hamburger-slide-down" class="hamburger hamburger--arrowturn" type="button" title="Open Menu">
+		  	  <span class="hamburger-box">
+		  	    <span class="hamburger-inner"></span>
+		  	  </span>
+		  	</button>
+		  </div>
+		  <div class="title-bar-title">
+		  	<a href="<?php echo site_url(); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+		  </div>
+		</div>
+	</nav>
+
+	<div class="menu-logo-mobile absolute show-for-small-only">
+		<div class="mobile-menu-icon">
+			<button id="top-hamburger" class="hamburger hamburger--arrowturn" type="button" title="Open Menu">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+			</button>
+		</div>
+		<div class="mobile-logo">
+			<a href="<?php echo site_url(); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+		</div>
+	</div>
 
 	<?php get_template_part('template-parts/header-logo'); ?>

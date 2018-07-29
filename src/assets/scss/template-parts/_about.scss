@@ -1,18 +1,9 @@
 /* ===================================== */
 /* ============ ABOUT PAGE ============= */
 /* ===================================== */
-.page-header{
-	padding:10% 0;
-	.logo{
-		left: 8%;
-		top: 10%;
-	}
-}
-.top-title{
-	//padding: 8% 0;
-}
+
 .history{
-	padding: 4% 0;
+	padding: 4% 0 8%;
 	.graphic{
 		min-width: 100%;
 		min-height: 100%;
@@ -33,10 +24,56 @@
 }
 .colors{
 	background-color:#f4f4f4;
-	padding: 4% 0;
+	padding: 8% 0;
 	h4{
 		font-family:"Futura PT";
 		font-weight:600;
 		font-size:20px;
+	}
+}
+// team carousel
+.team{
+	.owl-carousel {
+	  .owl-prev,.owl-next{
+	  	position:absolute;
+	  }
+	  .owl-prev{
+	  	left: -30px;
+	  	top: 50%;
+	  	transform:translateY(-100%);
+	  }
+	  .owl-next{
+	  	right: -30px;
+	  	top: 50%;
+	  	transform:translateY(-100%);
+	  }
+	  .owl-dots{
+	  	display:none;
+	  }
+	}
+}
+.team-member{
+	.team-member-meta{
+		padding: 20px;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(239, 137, 3, 0.8);
+		width: 100%;
+		opacity: 0;
+		transition: opacity 0.25s ease-in-out;
+		h5,h6{
+			color: $white;
+			margin-bottom: 0;
+			font-size: 18px;
+		}
+		h6{
+			text-transform:uppercase;
+			font-size: 12px;
+			font-family: 'futura-pt';
+			font-weight: 600;
+		}
+	}
+	&:hover .team-member-meta{
+		opacity:1;
 	}
 }

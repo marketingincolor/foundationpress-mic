@@ -1,0 +1,48 @@
+.page-header{
+	padding:5% 0;
+}
+
+.mobile-menu{
+	background-color: #2C3840;
+	display: block;
+	position: fixed;
+	top: -67px;
+	height: auto;
+	z-index: 5;
+	transition: top 0.25s ease-in-out;
+
+	&.slide-down{
+		top: 0;
+	}
+
+	.title-bar{
+		width:83.33333%;
+		margin: 0 auto;
+	}
+
+	#top-hamburger-slide-down{
+		padding: 15px 14px 6px 0;
+	}
+}
+
+.menu-logo-mobile{
+	z-index: 1;
+	top: 30px;
+	width: 83.33333%;
+	@include horizontal-center;
+
+	#top-hamburger{
+		padding: 7px 0;
+	}
+
+	.mobile-menu-icon,.mobile-logo{
+		float: left;
+	}
+
+	.mobile-menu-icon{
+		width: 20%;
+	}
+	.mobile-logo{
+		width: 80%;
+	}
+}

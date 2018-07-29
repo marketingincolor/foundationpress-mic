@@ -2,7 +2,20 @@
 /* ============== GENERAL ============== */
 /* ===================================== */
 section{
-	margin-left: 50px;
+	margin-left: 60px;
+	@include breakpoint(small only){
+		margin-left: 0;
+	}
+}
+.hide800{
+	@media(max-width:800px){
+		display:none;
+	}
+}
+.show800{
+	@media(min-width:801px){
+		display:none;
+	}
 }
 .absolute{
 	position:absolute;
@@ -23,11 +36,12 @@ p{
 }
 blockquote p{
 	font-size: 24px;
+	line-height: 1.4;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
 	font-family: "clarendon-text-pro";
 }
-h1,h2,h3,h4,h5,p,a,li,div{
+h1,h2,h3,h4,h5,h6,p,a,li,div{
 	color:$gray_text;
 }
 h1{
@@ -41,16 +55,23 @@ h3{
 	font-family: "futura-pt";
 	font-weight: 600;
 	letter-spacing:2px;
+	transition:color 0.25s ease-in-out;
 	&.white i{
 		color:$white;
 	}
 	&.orange i{
 		color:$orange;
 	}
+	// &:not(.contact-us):hover{
+	// 	color:$orange;
+	// }
 }
 .icon{
 	height:100%;
 	margin:5px 15px 0 0;
+}
+.subhead{
+	margin-bottom: 50px;
 }
 .top-title{
 	padding: 5% 0;
