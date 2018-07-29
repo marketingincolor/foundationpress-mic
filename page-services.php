@@ -21,14 +21,14 @@
 
 <section class="strategize relative">
 	<div class="graphic absolute">
-		<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/strategize.jpg" class="absolute" alt="marketing in color strategize">
+		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/services-history.png" class="absolute" alt="marketing in color strategize">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">
 			<div class="cell medium-8 gray-box">
 				<div class="grid-x">
 					<div class="cell medium-8">
-						<h3>Strategize</h3>
+						<h3>Our History</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh. Pellentesque eu dolor vitae lectus hendrerit convallis. Phasellus tincidunt et est sodales gravida. Praesent lacinia commodo luctus. Vestibulum nec dui eros. Cras vel nisl cursus, eleifend enim non, sodales elit. Morbi lectus eros, posuere in auctor vitae, laoreet in nibh.</p>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 
 <section class="plan relative">
 	<div class="graphic absolute">
-		<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/strategize.jpg" class="absolute" alt="marketing in color strategize">
+		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/services-plan.png" class="absolute" alt="marketing in color strategize">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">
@@ -62,7 +62,7 @@
 				<div class="grid-x">
 					<div class="cell medium-8">
 						<h3>Execute</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
+						<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 				</div>
 			</div>
@@ -106,7 +106,7 @@
 
 <section class="analyze relative">
 	<div class="graphic absolute">
-		<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/strategize.jpg" class="absolute" alt="marketing in color strategize">
+		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/services-analyze.png" class="absolute" alt="marketing in color strategize">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">
@@ -124,7 +124,7 @@
 
 <section class="repeat relative">
 	<div class="graphic absolute">
-		<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/strategize.jpg" class="absolute" alt="marketing in color strategize">
+		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/services-repeat.png" class="absolute" alt="marketing in color strategize">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">

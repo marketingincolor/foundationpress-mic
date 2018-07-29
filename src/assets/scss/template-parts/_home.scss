@@ -5,52 +5,123 @@
 	height: 100vh;
 	overflow: hidden;
 	background: $black;
+
+	@include breakpoint(small only){
+		height: 110vh;
+	}
+
 	video{
 		min-width: 100%;
 		min-height: 100%;
 		z-index: 0;
 		opacity: .4;
 	}
+
 	.logo{
 		left: 8%;
 		top: 10%;
 	}
+
 	.meta{
     bottom: 10%;
     left: 6%;
     width: 80%;
     max-width: 900px;
+
+    @include breakpoint(small only){
+    	width:83.33333%;
+    	@include horizontal-center;
+    	bottom: 25px;
+    }
+
+    h1{
+
+    	@include breakpoint(small only){
+    		line-height: 1.2em;
+    	}
+    }
 	}
+
 	blockquote{
 		border-left: 2px solid $orange;
 		padding-top: 0;
+
+		@include breakpoint(small only){
+			border-left: 0;
+			padding: 0;
+		}
+
 		p{
-			color:$white;
+			color: $white;
 		}
 	}
+
 	h1,.btn-arrow{
-		color:$white;
+		color: $white;
 	}
 }
 // who we are
 .who{
 	padding: 8% 0;
+
+	@media(max-width:800px){
+		padding: 0 0 8%;
+	}
+
 	.gray-box{
 		background-color:#f4f4f4;
 		padding:20% 5% 5%;
+
+		@media(max-width:800px){
+			background-color: $white;
+			width: 100%;
+			padding: 10% 5% 0;
+		}
+
+		@include breakpoint(small only){
+			padding: 5% 0;
+			width: 83.33333%;
+		}
+
+		.cell.medium-8{
+		
+			@media(max-width:800px){
+				width: 100%;
+			}
+		}
 	}
-	img{
+
+	.orange-bg{
+		background-color:$orange;
+		padding: 10% 0;
+
+		img{
+			width: 100%;
+		}
+	}
+
+	img.absolute{
 		right: 0;
 		top: 50%;
 		max-width: 50%;
 		transform: translateY(-50%);
 	}
 }
+// What we do
 .what{
 	padding: 5% 0 13%;
+
+	.grid-container{
+
+		@include breakpoint(small only){
+			padding: 0;
+		}
+	}
+
 	.grid-margin-x{
 		align-items:center;
 	}
+
 	.purple-box{
 		background-color: $purple;
 		height: 70%;
@@ -58,32 +129,69 @@
 		bottom: -30px;
 		left: -10px;
 	}
+
+	.orbit-bg{
+
+		@include breakpoint(small only){
+			background-color:#a169c9;
+			padding: 10% 0;
+			margin-bottom: 15%;
+		}
+	}
+
 	.orbit-bullets{
 		position: absolute;
 		bottom: 20px;
 		left: 20px;
 		margin: 0;
+
 		button{
 			width: 1rem;
 			height: 1rem;
 			background-color:$white;
+
 			&.is-active{
 				background-color:$orange;
 			}
 		}
 	}
+
+	.medium-5.cell{
+
+		@include breakpoint(small only){
+			padding-right: 0.625rem;
+			padding-left: 0.625rem;
+		}
+	}
 }
 .why{
+
 	@include center-cover;
 	height: 100vh;
+
+	@media(max-width:800px){
+		height: 60vh;
+	}
+
+	@include breakpoint(small only){
+		height: auto;
+		padding: 20% 0 30%;
+	}
+
 	.grid-container,.grid-x{
 		height: 100%;
 	}
+
 	.cell{
 		align-self:flex-end;
 		position: relative;
 		top: -150px;
+
+		@include breakpoint(small only){
+			position: static;
+		}
 	}
+
 	.meta{
 		h3,p,a{
 			color:$white;
@@ -91,8 +199,10 @@
 	}
 }
 .tools{
-	padding: 10% 0;
+	padding: 10% 0 0;
+
 	.owl-carousel {
+
 		.owl-item{
 			div{
 				height: 100px;
@@ -101,21 +211,53 @@
 				justify-content:center;
 			}
 		}
+
 		.owl-item img{
 		  width:auto;
 	  }
+
 	  .owl-prev,.owl-next{
 	  	position:absolute;
 	  }
+
 	  .owl-prev{
 	  	left: -30px;
 	  	top: 50%;
 	  	transform:translateY(-100%);
 	  }
+
 	  .owl-next{
 	  	right: -30px;
 	  	top: 50%;
 	  	transform:translateY(-100%);
 	  }
+	}
+	.tools-orbit{
+
+		ul{
+			list-style-type: none;
+			margin: 0;
+
+			li{
+				padding: 15px 0;
+				text-align: center;
+				img{
+					max-width: 150px;
+					margin: 0 auto;
+				}
+			}
+		}
+
+		.orbit-previous,.orbit-next{
+			color:$gray_text;
+		}
+
+		.orbit-previous{
+			left: -20px;
+		}
+
+		.orbit-next{
+			right: -20px;
+		}
 	}
 }

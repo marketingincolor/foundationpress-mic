@@ -21,7 +21,7 @@
 
 <section class="history relative">
 	<div class="graphic absolute">
-		<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/strategize.jpg" class="absolute" alt="marketing in color - our history">
+		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/about-history.png" class="absolute" alt="marketing in color - our history">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">
@@ -44,7 +44,7 @@
 				<div class="grid-x">
 					<div class="cell medium-8 medium-offset-2">
 						<h3>Meet the Team</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh. Pellentesque eu dolor vitae lectus hendrerit convallis. Phasellus tincidunt et est sodales gravida. Praesent lacinia commodo luctus.</p>
+						<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh. Pellentesque eu dolor vitae lectus hendrerit convallis. Phasellus tincidunt et est sodales gravida. Praesent lacinia commodo luctus.</p>
 					</div>
 					<?php get_template_part('template-parts/team-carousel'); ?>
 				</div>
@@ -60,12 +60,12 @@
 				<div class="grid-x">
 					<div class="cell medium-8">
 						<h3>Our True Colors</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
+						<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor erat, facilisis vitae maximus sed, facilisis a nibh.</p>
 					</div>
 				</div>
 			</div>
 			<div class="cell medium-12">
-				<div class="grid-x grid-margin-x">
+				<div class="grid-x grid-margin-x grid-margin-y">
 					<div class="cell medium-6">
 						<span class="icon left"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/partner.svg" alt="marketing in color partner"></span>
 						<h4>Be a Partner</h4>

@@ -33,9 +33,9 @@
 					} ?>
 
 				</div>
-				<div class="team-member-item absolute">
+				<div class="team-member-item team-member-meta absolute">
 					<h5><?php echo $team->post_title; ?></h5>
-					<h6><i><?php if ( ! empty( $current_position ) ) { echo $current_position; } ?></i></h6>
+					<h6><?php if ( ! empty( $current_position ) ) { echo $current_position; } ?></h6>
 				</div>
 			</div>
 

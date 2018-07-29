@@ -9,19 +9,21 @@
  */
 ?>
 
-<footer class="footer">
+<section class="footer">
   <?php if (!is_page_template('page-contact.php')) { ?>
     
   <div class="top-footer">
   	<div class="grid-container fluid">
   	  <div class="grid-x relative">
   	    <div class="medium-8 cell">
-  	    	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/bricks.jpg" alt="Lets' Work Together">
+  	    	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/bricks.jpg" alt="Lets' Work Together" class="relative bricks">
   	    </div>
   	    <div class="work-together absolute">
   	    	<div class="grid-x">
-  	    		<div class="medium-7 medium-offset-1 cell">
-  	    			<h2>Let's Work Together</h2>
+            <div class="medium-10 small-offset-1 small-10 cell">
+              <h2>Let's Work Together</h2>
+            </div>
+  	    		<div class="large-6 medium-9 small-offset-1 small-10 cell">
   	    			<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo.</p></blockquote>
   	    		</div>
   	    		<div class="medium-12 cell">
@@ -37,11 +39,11 @@
   <div class="bottom-footer">
   	<div class="grid-container">
   		<div class="grid-x">
-  			<div class="medium-5 cell">
+  			<div class="medium-5 small-10 small-offset-1 cell">
   				<ul class="address">
   					<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mic-bug.png" alt="Marketing in Color"></li>
 						<li>
-							<span>1515 N. Marion St, Suite #2 Tampa, FL 33602</span><br>
+							<span>1515 N. Marion St, Suite #2 <br class="show800">Tampa, FL 33602</span><br>
 							<span>(813)258-3771</span><br>
 							<span>
 								<ul class="social-icons">
@@ -54,18 +56,18 @@
 						</li>
   				</ul>
   			</div>
-  			<div class="medium-7 cell text-right">
+  			<div class="medium-7 cell text-right bbb-copy relative">
   				<p><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/bbb.png" alt="Better Business Bureau"></p>
 					<ul class="copyright">
-						<li>&copy; <?php echo date('Y'); ?> Marketing In Color</li> &nbsp;|&nbsp;
-						<li><a href="#">Privacy Policy</a></li> &nbsp;|&nbsp;
+						<li>&copy; <?php echo date('Y'); ?> Marketing In Color</li> <span class="hide800">&nbsp;|&nbsp;</span>
+						<li><a href="#">Privacy Policy</a></li> <span class="hide800">&nbsp;|&nbsp;</span>
 						<li><a href="#">SharpSpring Login</a></li>
 					</ul>
   			</div>
   		</div>
   	</div>
   </div>
-</footer>
+</section>
 
 <script src="<?php bloginfo('template_directory'); ?>/dist/assets/js/owl.carousel.min.js"></script>
 
