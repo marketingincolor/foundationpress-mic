@@ -5,13 +5,13 @@
 
 <section class="video-hero relative">
 	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video.mp4" autoplay="" loop="" muted="" preload="auto"></video>
-	<a href="<?php echo site_url(); ?>" class="logo absolute show-for-medium"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+	<a href="<?php echo site_url(); ?>" class="logo absolute show-for-medium"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
 	
 	<aside class="meta absolute">
-		<h1>Plan. Execute. Analyze. Repeat.</h1>
+		<h1>Down with dull. Dream in color.</h1>
 		<blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium libero soluta eius nulla veniam sint sunt. Cupiditate, in, reprehenderit. Numquam temporibus adipisci amet minima natus, hic laboriosam sapiente veniam totam.</p>
-		  <a href="#" class="btn-arrow white">Let's work together <i class="fas fa-arrow-right"></i></a>
+			<p>Color. It’s in our name. It’s how we think, gather, engage, collaborate, and create. We breathe color into black and white situations and aren’t afraid to color outside the lines. </p>
+		  <a href="/contact-us" class="btn-arrow white">Let's work together <i class="fas fa-arrow-right"></i></a>
 		</blockquote>
 	</aside>
 </section>
@@ -25,13 +25,13 @@
 			<div class="cell medium-8 medium-offset-0 gray-box small-10 small-offset-1">
 				<div class="grid-x">
 					<div class="cell medium-8">
-						<h3>Who We Are</h3>
-						<p>We are a “Type A” company with a “No BS” approach. Since 1996, we’ve built a rock-solid reputation for delivering results, whether that’s helping our client partners win new business, influence a tough crowd, or be on the cutting edge. At MIC, we want to positively impact every client we engage with. We strive to inspire, challenge, and show our true colors in everything we say and do. And that, ladies and gentlemen, is what it means to Think In Color.</p>
+						<h3>A type A company with a no BS approach.</h3>
+						<p>We are always fair, and honest. Because to us, personal integrity is more important than financial gain. We wish for our brand to better lives, make someone’s day, and positively impact every client we engage with. In fact, we strive to inspire, challenge, and show our true colors in everything we do. Because marketing is much more than building brands, it's also about building relationships.</p>
 						<a href="#" class="btn-arrow orange">More About Us <i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
-			<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/who-we-are3.png" class="absolute hide800" alt="marketing in color who we are">
+			<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/who-we-are3.png" class="absolute hide800" alt="marketing in color who we are">
 		</div>
 	</div>
 </section>
@@ -46,17 +46,17 @@
 				    <ul class="orbit-container">
 				      <li class="is-active orbit-slide">
 				        <figure class="orbit-figure">
-				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/src/assets/images/what-we-do.png" alt="Space">
+				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
 				      </li>
 				      <li class="orbit-slide">
 				        <figure class="orbit-figure">
-				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/src/assets/images/what-we-do.png" alt="Space">
+				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
 				      </li>
 				      <li class="orbit-slide">
 				        <figure class="orbit-figure">
-				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/src/assets/images/what-we-do.png" alt="Space">
+				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
 				      </li>
 				    </ul>
@@ -69,22 +69,22 @@
 				</div>
 			</div>
 			<div class="medium-5 medium-offset-0 small-10 small-offset-1 cell">
-				<h3>What We Do</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima at inventore sed corporis modi nisi reiciendis veritatis incidunt provident excepturi ullam illum molestias, consequatur eveniet rerum saepe, omnis quisquam.</p>
-				<a href="#" class="btn-arrow orange">Explore Our Services <i class="fas fa-arrow-right"></i></a>
+				<h3>Strategize. Plan. Execute. Analyze. Repeat.</h3>
+				<p>We're a team of experts who legitimately love what we do. We dive deep because it's how we ensure well-informed, effective marketing strategies. We only use measurable methods to ensure the results of our partnerships are clear. As our client and partner, your success is our success.</p>
+				<a href="/services" class="btn-arrow orange">Explore Our Services <i class="fas fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="why" style="background-image:url(<?php bloginfo('template_directory'); ?>/src/assets/images/why-were-different.png);">
+<section class="why" style="background-image:url(<?php bloginfo('template_directory'); ?>/dist/assets/images/why-were-different.png);">
 	<div class="grid-container relative">
 		<div class="grid-x">
 			<div class="medium-6 medium-offset-0 small-10 small-offset-1 cell">
 				<aside class="meta">
 					<h3>Why We're Different</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quas necessitatibus commodi provident sed tempore ullam eveniet, tempora, excepturi officiis amet corrupti, error! Nostrum quasi, dolores dignissimos quam beatae ab?</p>
-					<a href="#" class="btn-arrow orange">Let's Talk <i class="fas fa-arrow-right"></i></a>
+					<p>We call ourselves a marketing company and not an ad agency. We’re not interested in creating flashy ads to win awards. We’re too busy focusing our time getting involved in the DNA of our clients, to help them find opportunities they’re too close to see for themselves. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success. That’s where we come in.</p>
+					<a href="/contact-us" class="btn-arrow orange">Do you have a story? We’d love to hear it <i class="fas fa-arrow-right"></i></a>
 				</aside>
 			</div>
 		</div>
@@ -96,21 +96,24 @@
 		<div class="grid-x">
 			<div class="medium-6 medium-offset-3 small-10 small-offset-1 cell">
 				<h3 class="text-center">Tools of the Trade</h3>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eligendi consequuntur suscipit reprehenderit, inventore corrupti fugit praesentium nam, nemo</p>
+				<p class="text-center">Well-crafted work requires savvy tools. Here are some of the tools we use to ensure the success of every project.</p>
 			</div>
-			<div class="small-10 small-offset-1 cell">
+			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<div class="tools-carousel owl-carousel hide-for-small-only">
 				  <div>
 				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/wordpress.png" alt="">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/shopify.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/basecamp.png" alt="">
+				  </div>
+				  <div>
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/invision.png" alt="">
 				  </div>
 				  <div>
 				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sharpspring.png" alt="">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/invision.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/shopify.png" alt="">
 				  </div>
 				  <div>
 				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adroll.png" alt="">

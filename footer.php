@@ -9,7 +9,8 @@
  */
 ?>
 
-<section class="footer">
+<section class="footer <?php if (!is_page_template('front-page.php')) { echo 'about-services'; } ?>">
+
   <?php if (!is_page_template('page-contact.php')) { ?>
     
   <div class="top-footer">
@@ -21,13 +22,13 @@
   	    <div class="work-together absolute">
   	    	<div class="grid-x">
             <div class="medium-10 small-offset-1 small-10 cell">
-              <h2>Let's Work Together</h2>
+              <h2>Want to grab coffee?</h2>
             </div>
   	    		<div class="large-6 medium-9 small-offset-1 small-10 cell">
-  	    			<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, facere dicta expedita beatae et atque nemo.</p></blockquote>
+  	    			<blockquote><p>You bring your black and white ideas. We’ll bring the color. And let’s see what we can accomplish together.</p></blockquote>
   	    		</div>
   	    		<div class="medium-12 cell">
-  	    			<a href="#" class="contact-us btn-arrow white">Contact Us <i class="fas fa-arrow-right"></i></a>
+  	    			<a href="/contact-us" class="contact-us btn-arrow white">Contact Us <i class="fas fa-arrow-right"></i></a>
   	    		</div>
   	    	</div>
   	    </div>
@@ -36,10 +37,11 @@
   </div>
 
   <?php } ?>
+  
   <div class="bottom-footer">
   	<div class="grid-container">
   		<div class="grid-x">
-  			<div class="medium-5 small-10 small-offset-1 cell">
+  			<div class="medium-5 medium-offset-0 small-10 small-offset-1 cell">
   				<ul class="address">
   					<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mic-bug.png" alt="Marketing in Color"></li>
 						<li>
@@ -61,7 +63,7 @@
 					<ul class="copyright">
 						<li>&copy; <?php echo date('Y'); ?> Marketing In Color</li> <span class="hide800">&nbsp;|&nbsp;</span>
 						<li><a href="#">Privacy Policy</a></li> <span class="hide800">&nbsp;|&nbsp;</span>
-						<li><a href="#">SharpSpring Login</a></li>
+						<li><a href="http://marketingincolor.com/sharpspring-login/">SharpSpring Login</a></li>
 					</ul>
   			</div>
   		</div>

@@ -1,22 +1,60 @@
 .contact-form{
 	padding: 10% 0;
+
+	@include breakpoint(small only){
+		padding: 10% 0 0;
+	}
+
 	.gray-box{
 		background-color: #f4f4f4;
 		padding: 5%;
+
+		@include breakpoint(small only){
+			padding: 0;
+		}
 	}
+
+	.gray-container{
+
+		@include breakpoint(small only){
+			padding: 10% 0;
+			background-color:#f4f4f4;
+		}
+	}
+
 	img{
 		right: 0;
 		top: 7%;
-		width: 50%;
+		width: 45vw;
 		max-width: 850px;
+
+		@include breakpoint(medium down){
+			width: 40vw;
+		}
 	}
+
+	img.hide-for-medium{
+		width: 100%;
+		transform: translateY(0%);
+	}
+
+	.nf-form-cont .one-half{
+
+		@include breakpoint(small only){
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+
 	.nf-form-fields-required{
 		display:none;
 	}
+
 	.nf-error .ninja-forms-field{
 		border:none;
 		border-bottom: 2px solid red;
 	}
+
 	input{
 		background-color:transparent;
 		border: none;
@@ -25,6 +63,7 @@
 		color: $gray_text;
 		font-size: 14px;
 		font-family: "futura-pt";
+
 		&:focus{
 			border:none;
 			border-bottom: 2px solid $green;
@@ -32,6 +71,7 @@
 			box-shadow: none;
 		}
 	}
+
 	#nf-field-4{
 		background-image: url(../images/arrow-right.png);
 		border: none;
@@ -47,25 +87,36 @@
 		font-size: 24px;
 		box-shadow: 5px 5px #ddd;
 		cursor:pointer;
+		// transition: background-color 0.25s ease-in-out;
+
 		@media(max-width:768px){
 			width: 300px;
 		}
+
+		// &:hover{
+		// 	background-color:$green;
+		// }
 	}
+
+	// Form Placeholder Styles
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	  color: $gray_text;
 	  font-size: 14px;
 	  font-family: "futura-pt";
 	}
+
 	::-moz-placeholder { /* Firefox 19+ */
 	  color: $gray_text;
 	  font-size: 14px;
 	  font-family: "futura-pt";
 	}
+
 	:-ms-input-placeholder { /* IE 10+ */
 	  color: $gray_text;
 	  font-size: 14px;
 	  font-family: "futura-pt";
 	}
+
 	:-moz-placeholder { /* Firefox 18- */
 	  color: $gray_text;
 	  font-size: 14px;

@@ -3,7 +3,7 @@
 }
 
 .mobile-menu{
-	background-color: #2C3840;
+	background-color: #333;
 	display: block;
 	position: fixed;
 	top: -67px;
@@ -16,6 +16,7 @@
 	}
 
 	.title-bar{
+		background-color: #333;
 		width:83.33333%;
 		margin: 0 auto;
 	}
@@ -37,6 +38,10 @@
 
 	.mobile-menu-icon,.mobile-logo{
 		float: left;
+	}
+
+	.not-home .hamburger-inner,.not-home .hamburger-inner::before,.not-home .hamburger-inner::after{
+		background-color: #848689;
 	}
 
 	.mobile-menu-icon{

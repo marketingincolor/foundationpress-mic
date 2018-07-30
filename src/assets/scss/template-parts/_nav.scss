@@ -18,7 +18,7 @@
 		cursor:pointer;
 		position: fixed;
 		left: 0;
-		transition: left 0.4s ease-in-out,opacity 0.15s ease-in-out;
+		transition: left 0.4s ease-in-out,opacity 0.25s ease-in-out;
 
 		@include breakpoint(small only){
 			opacity: 0;
