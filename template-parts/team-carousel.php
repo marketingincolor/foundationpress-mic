@@ -1,4 +1,4 @@
-<div class="medium-12 cell">
+<div class="small-10 small-offset-1 cell">
 	<div class="team-carousel owl-carousel">
 	<?php
 	/**
@@ -27,9 +27,9 @@
 
 					<?php echo get_the_post_thumbnail($team->ID); ?>
 					<?php if ( ! empty( $alt_image ) ) {
-						echo wp_get_attachment_image( $alt_image, 'post-thumbnail');
+						echo wp_get_attachment_image( $alt_image, 'post-thumbnail',"",array('class' => 'alt-img absolute'));
 					} else {
-						echo get_the_post_thumbnail($team->ID);
+						echo get_the_post_thumbnail($team->ID,array('class' => 'alt-img'));
 					} ?>
 
 				</div>

@@ -1,46 +1,54 @@
 /* ===================================== */
 /* =========== SERVICES PAGE =========== */
 /* ===================================== */
-
-.strategize, .analyze{
-	padding: 4% 0;
-	.graphic{
-		min-width: 100%;
-		min-height: 100%;
-		z-index:1;
-	}
-	.gray-box{
-		background-color:#f4f4f4;
-		padding:20% 5% 5%;
-	}
-	img{
-		right: 0;
-		transform: translateY(-10%);
-		width:50vw;
+.history.services-history,.history.services-analyze{
+	
+	@include breakpoint(small only){
+		padding: 0;
 	}
 }
+
 .plan, .repeat{
 	padding: 4% 0;
+
+	@include breakpoint(small only){
+		padding: 0;
+	}
+
 	.graphic{
 		min-width: 100%;
 		min-height: 100%;
 		z-index:1;
 	}
+
+	.gray-container{
+
+		@include breakpoint(small only){
+			padding: 10% 0;
+			background-color:#f4f4f4;
+		}
+	}
+
 	.gray-box{
 		background-color:#f4f4f4;
 		padding:20% 5% 5%;
+
+		@include breakpoint(small only){
+			padding: 0;
+		}
 	}
+
 	img{
 		left: 0;
 		transform: translateY(25%);
-		width:50vw;
+		width:40vw;
+	}
+
+	.hide-for-medium img{
+		width: 100%;
+		transform: translateY(0%);
 	}
 }
-.execute{
-	padding: 8% 0;
-	h4{
-		font-family:"Futura PT";
-		font-weight:600;
-		font-size:20px;
-	}
+.colors.execute{
+	background-color:$white;
 }

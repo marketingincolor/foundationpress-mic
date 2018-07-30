@@ -4,6 +4,20 @@
 .footer{
 	padding: 8% 0 0;
 
+	&.about-services{
+		
+		@include breakpoint(small only){
+			padding: 0;
+		}
+
+		.top-footer{
+			
+			@include breakpoint(small only){
+				padding: 0;
+			}
+		}
+	}
+
 	.grid-container.fluid{
 		padding: 0;
 	}
@@ -34,7 +48,7 @@
 			position:static;
 			width: 100%;
 			transform: translateY(0);
-			padding: 15% 0 17%;
+			padding: 15% 0;
 		}
 
 		h2,p,a{
@@ -88,6 +102,10 @@
 	.bottom-footer{
 		padding: 5% 0;
 
+		@include breakpoint(small only){
+			padding: 15% 0 10%;
+		}
+
 		li,a{
 			font-family: 'futura-pt';
 		}
@@ -124,36 +142,49 @@
 				}
 			}
 		}
+
 		.address{
 			display:flex;
+
 			@media(max-width:800px){
 				display:block;
 				text-align: center;
 			}
+
 			li{
 				align-self:center;
+
 				&:first-of-type{
 					margin-right: 15px;
+
 					@media(max-width:800px){
  						margin-right: 0;
  						margin-bottom: 15px;
 					}
 				}
 			}
+
 			span,.social-icons{
 				line-height: 1.5em;
-				margin-top: 10px;
 			}
+
 			.social-icons{
 				list-style-type:none;
 				margin-left: 0;
+
+				@include breakpoint(small only){
+					margin-top: 10px;
+				}
+
 				li{
 					display:inline-block;
 					margin-right: 8px;
 				}
+
 				a:hover i{
 					color: $orange
 				}
+
 				i{
 					font-size: 16px;
 					transition: color 0.25s ease-in-out;
@@ -161,23 +192,29 @@
 			}
 		}
 		.bbb-copy{
+
 			@media(max-width:800px){
 				text-align: center;
 				top: 20px;
 			}
+
 			@include breakpoint(small only){
 				top: 0;
 			}
 		}
 		.copyright{
+
 			li{
 				font-size: 16px;
+
 				@media(max-width:800px){
 					font-size: 14px;
 				}
 			}
+
 			a{
 				transition: color 0.25s ease-in-out;
+
 				&:hover{
 					color:$orange;
 				}
@@ -185,6 +222,7 @@
 		}
 		.text-right p{
 			margin-bottom: 5px;
+
 			@media(max-width:800px){
 				margin-bottom: 20px;
 			}

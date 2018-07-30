@@ -4,27 +4,67 @@
 
 .history{
 	padding: 4% 0 8%;
+
 	.graphic{
 		min-width: 100%;
 		min-height: 100%;
 		z-index:1;
 	}
+
 	.gray-box{
 		background-color:#f4f4f4;
 		padding:20% 5% 5%;
+
+		@include breakpoint(small only){
+			padding: 0;
+		}
 	}
+
+	.gray-container{
+
+		@include breakpoint(small only){
+			padding: 10% 0;
+			background-color:#f4f4f4;
+		}
+	}
+
 	img{
 		right: 0;
 		transform: translateY(-10%);
-		width:50vw;
+		width:45vw;
+
+		@include breakpoint(medium down){
+			width: 40vw;
+		}
+	}
+
+	.hide-for-medium img{
+		width: 100%;
+		transform: translateY(0%);
 	}
 }
 .team{
 	text-align:center;
+
+	@include breakpoint(small only){
+		padding-top: 5%;
+	}
 }
 .colors{
 	background-color:#f4f4f4;
 	padding: 8% 0;
+
+	@include breakpoint(small only){
+		padding: 10% 0;
+	}
+
+	img{
+
+		@include breakpoint(small only){
+			margin-bottom: 20px;
+		}
+	}
+
 	h4{
 		font-family:"Futura PT";
 		font-weight:600;
@@ -73,7 +113,27 @@
 			font-weight: 600;
 		}
 	}
+
+	img{
+		transition:opacity 0.25s ease-in-out;
+	}
+
+	.team-image img:last-of-type{
+		opacity:0;
+		top: 0;
+	}
+
 	&:hover .team-member-meta{
 		opacity:1;
+	}
+
+	&:hover .team-image {
+		
+		img:first-of-type{
+			opacity:0;
+		}
+		img:last-of-type{
+			opacity:1;
+		}
 	}
 }

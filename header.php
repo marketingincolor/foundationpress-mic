@@ -46,21 +46,31 @@
 		  	</button>
 		  </div>
 		  <div class="title-bar-title">
-		  	<a href="<?php echo site_url(); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+		  	<a href="<?php echo site_url(); ?>" class="logo">
+		  		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>">
+		  	</a>
 		  </div>
 		</div>
 	</nav>
 
 	<div class="menu-logo-mobile absolute show-for-small-only">
 		<div class="mobile-menu-icon">
-			<button id="top-hamburger" class="hamburger hamburger--arrowturn" type="button" title="Open Menu">
+			<button id="top-hamburger" class="hamburger hamburger--arrowturn <?php if (!is_page_template('front-page.php')) { echo 'not-home'; } ?>" type="button" title="Open Menu">
 			  <span class="hamburger-box">
 			    <span class="hamburger-inner"></span>
 			  </span>
 			</button>
 		</div>
 		<div class="mobile-logo">
-			<a href="<?php echo site_url(); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/src/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+			<?php if (is_page_template('front-page.php')) { ?>
+
+			  <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+
+			<?php }else{ ?>
+
+			  <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/gray-logo.png" alt="<?php bloginfo('title'); ?>"></a>
+
+			<?php } ?>
 		</div>
 	</div>
 

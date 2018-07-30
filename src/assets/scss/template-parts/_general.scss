@@ -66,21 +66,45 @@ h3{
 	// 	color:$orange;
 	// }
 }
-.icon{
-	height:100%;
-	margin:5px 15px 0 0;
+
+.center-mobile{
+
+	@include breakpoint(small only){
+		text-align: center;
+	}
 }
+
+// .icon{
+// 	height:100%;
+// 	margin:5px 15px 0 0;
+
+// 	@include breakpoint(small only){
+// 		height: auto;
+// 		margin: 0 0 20px;
+// 		width: 100%;
+// 		text-align: center;
+// 	}
+// }
+
 .subhead{
 	margin-bottom: 50px;
 }
+
 .top-title{
 	padding: 5% 0;
+
+	@include breakpoint(small only){
+		padding: 30% 0 5%;
+	}
+
 	h1{
 		color:$orange;
 	}
+
 	blockquote{
 		border-left: 2px solid $orange;
 		padding-top: 0;
+
 		p{
 			color: $gray_text;
 		}

@@ -6,12 +6,12 @@
 <section class="top-title">
 	<div class="grid-container">
 		<div class="grid-x">
-			<div class="small-12 cell">
+			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<h1>Contact Us</h1>
 			</div>
-			<div class="medium-8 cell">
+			<div class="small-10 small-offset-1 large-12 large-offset-0">
 				<blockquote class="orange">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci dolores vitae harum repellat quasi ad corrupti sed enim ipsam rem maiores dolorem at.</p>
+					<p>You bring your black and white ideas. We’ll bring the color. And let’s see what we can accomplish together.</p>
 				</blockquote>
 			</div>
 		</div>
@@ -19,9 +19,17 @@
 </section>
 
 <section class="contact-form relative">
-	<div class="grid-container">
+	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/contact-map.png" class="absolute show-for-medium" alt="marketing in color - contact us">
+	<div class="grid-container full hide-for-medium">
 		<div class="grid-x">
-			<div class="cell medium-7 gray-box">
+			<div class="small-12 cell">
+				<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/contact-map.png" class="hide-for-medium" alt="marketing in color - contact us">
+			</div>
+		</div>
+	</div>
+	<div class="grid-container gray-container">
+		<div class="grid-x">
+			<div class="cell small-10 small-offset-1 medium-7 large-offset-0 gray-box">
 				<div class="grid-x">
 					<div class="cell medium-10">
 						<?php echo do_shortcode('[ninja_form id=1]'); ?>
@@ -30,7 +38,6 @@
 			</div>
 		</div>
 	</div>
-	<img src="<?php bloginfo('template_directory'); ?>/src/assets/images/contact-map.png" class="absolute" alt="marketing in color who we are">
 </section>
 
 
