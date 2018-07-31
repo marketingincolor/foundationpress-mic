@@ -4,7 +4,7 @@
 ?>
 
 <section class="video-hero relative">
-	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video.mp4" autoplay="" loop="" muted="" preload="auto"></video>
+	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video2.mp4" autoplay="" loop="" muted="" preload="auto"></video>
 	<a href="<?php echo site_url(); ?>" class="logo absolute show-for-medium"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
 	
 	<aside class="meta absolute">
@@ -17,12 +17,12 @@
 </section>
 
 <section class="who">
-	<div class="orange-bg show800">
+	<div class="orange-bg hide-for-medium">
 		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/tampa-skyline.png" alt="Marketing in Color Tampa,FL">
 	</div>
 	<div class="grid-container">
 		<div class="grid-x relative">
-			<div class="cell medium-8 medium-offset-0 gray-box small-10 small-offset-1">
+			<div class="cell medium-8 gray-box small-10 small-offset-1 large-offset-0">
 				<div class="grid-x">
 					<div class="cell medium-8">
 						<h3>A type A company with a no BS approach.</h3>
@@ -31,7 +31,7 @@
 					</div>
 				</div>
 			</div>
-			<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/who-we-are3.png" class="absolute hide800" alt="marketing in color who we are">
+			<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/who-we-are3.png" class="absolute show-for-medium" alt="marketing in color who we are">
 		</div>
 	</div>
 </section>
@@ -39,8 +39,8 @@
 <section class="what">
 	<div class="grid-container">
 		<div class="grid-x grid-margin-x relative">
-			<div class="absolute purple-box show-for-medium"></div>
-			<div class="medium-7 cell orbit-bg">
+			<div class="medium-6 medium-offset-1 large-offset-0 cell orbit-bg relative">
+			  <div class="absolute purple-box show-for-medium"></div>
 				<div class="orbit" role="region" aria-label="What we do" data-orbit>
 				  <div class="orbit-wrapper">
 				    <ul class="orbit-container">
@@ -80,7 +80,7 @@
 <section class="why" style="background-image:url(<?php bloginfo('template_directory'); ?>/dist/assets/images/why-were-different.png);">
 	<div class="grid-container relative">
 		<div class="grid-x">
-			<div class="medium-6 medium-offset-0 small-10 small-offset-1 cell">
+			<div class="medium-8 large-offset-0 large-6 small-10 small-offset-1 cell">
 				<aside class="meta">
 					<h3>Why We're Different</h3>
 					<p>We call ourselves a marketing company and not an ad agency. We’re not interested in creating flashy ads to win awards. We’re too busy focusing our time getting involved in the DNA of our clients, to help them find opportunities they’re too close to see for themselves. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success. That’s where we come in.</p>
@@ -101,67 +101,64 @@
 			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<div class="tools-carousel owl-carousel hide-for-small-only">
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/wordpress.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/wordpress.png" alt="wordpress">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/basecamp.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/basecamp.png" alt="basecamp">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/invision.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/invision.png" alt="invision">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sharpspring.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sharpspring.png" alt="sharpspring">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/shopify.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/shopify.png" alt="shopify">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adroll.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adroll.png" alt="adroll">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/salesforce.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adwords.png" alt="adwords">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adwords.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/axel.png" alt="axel">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/axel.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/crazyegg.png" alt="crazyegg">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/crazyegg.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/creativecloud.png" alt="adobe creative cloud">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/creativecloud.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/datastudio.png" alt="Google data studio">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/datastudio.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/facebook.png" alt="facebook">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/facebook.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/googleanalytics.png" alt="google analytics">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/googleanalytics.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/hotjar.png" alt="hotjar">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/hotjar.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/infusionsoft.png" alt="infusionsoft">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/infusionsoft.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/intercom.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/intercom.png" alt="intercom">
 				  </div>
 					<div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mailchimp.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mailchimp.png" alt="mailchimp">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/magento.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/magento.png" alt="magento">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sproutsocial.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sproutsocial.png" alt="sprout social">
 				  </div>
 				  <div>
-				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/zapier.png" alt="">
+				  	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/zapier.png" alt="zapier">
 				  </div>
 				</div>
 				
@@ -177,7 +174,7 @@
 				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/wordpress.png" alt=""></li>
 				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/shopify.png" alt=""></li>
 				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/sharpspring.png" alt=""></li>
-				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/salesforce.png" alt=""></li>
+				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/basecamp.png" alt="basecamp"></li>
 				        	<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/adroll.png" alt=""></li>
 				        </ul>
 				      </li>
