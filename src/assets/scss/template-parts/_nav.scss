@@ -14,10 +14,11 @@
 	}
 
 	#hamburger{
-		padding: 20px 15px;
-		cursor:pointer;
+		padding: 5px;
+		cursor: pointer;
 		position: fixed;
-		left: 0;
+		left: 15px;
+		top: 20px;
 		transition: left 0.4s ease-in-out,opacity 0.25s ease-in-out;
 
 		@include breakpoint(small only){
@@ -25,8 +26,24 @@
 			top: 16px;
 		}
 
+		.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before{
+			width: 22px;
+		}
+
+		.hamburger-box{
+			width: 22px;
+			height: 19px;
+		}
+
 		&.is-active{
 			left: 180px;
+
+			.hamburger-inner::before{
+				top: -5px;
+			}
+			.hamburger-inner::after{
+				bottom: -5px;
+			}
 
 			@include breakpoint(small only){
 				opacity: 1;
@@ -46,7 +63,7 @@
 	.nav-menu{
 		position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%,-50%);
     list-style-type: none;
     margin: 0;
@@ -61,6 +78,7 @@
     	a{
     		color: $white;
     		font-family: 'futura-pt';
+    		letter-spacing: 2px;
     		transition: color 0.25s ease-in-out;
 
     		&:hover{

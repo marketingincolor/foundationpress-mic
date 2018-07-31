@@ -45,7 +45,7 @@
   				<ul class="address">
   					<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mic-bug.png" alt="Marketing in Color"></li>
 						<li>
-							<span>1515 N. Marion St, Suite #2 <br class="show800">Tampa, FL 33602</span><br>
+							<span>1515 N. Marion St <br class="show800">Tampa, FL 33602</span><br>
 							<span>(813)258-3771</span><br>
 							<span>
 								<ul class="social-icons">
