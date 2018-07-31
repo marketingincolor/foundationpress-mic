@@ -9,7 +9,7 @@
 			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<h1>Contact Us</h1>
 			</div>
-			<div class="small-10 small-offset-1 large-12 large-offset-0">
+			<div class="small-10 small-offset-1 medium-8 large-7 large-offset-0 cell">
 				<blockquote class="orange">
 					<p>You bring your black and white ideas. We’ll bring the color. And let’s see what we can accomplish together.</p>
 				</blockquote>
@@ -31,7 +31,7 @@
 		<div class="grid-x">
 			<div class="cell small-10 small-offset-1 medium-7 large-offset-0 gray-box">
 				<div class="grid-x">
-					<div class="cell medium-10">
+					<div class="cell medium-11">
 						<?php echo do_shortcode('[ninja_form id=1]'); ?>
 					</div>
 				</div>

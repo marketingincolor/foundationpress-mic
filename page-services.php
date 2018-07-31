@@ -9,7 +9,7 @@
 			<div class="small-10 small-offset-1 medium-6 large-offset-0 cell">
 				<h1>Our Services</h1>
 			</div>
-			<div class="small-10 small-offset-1 medium-7 large-offset-0 cell">
+			<div class="small-10 small-offset-1 medium-8 large-7 large-offset-0 cell">
 				<blockquote class="orange">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci dolores vitae harum repellat quasi ad corrupti sed enim ipsam rem maiores dolorem at.</p>
 					<a href="/contact-us" class="btn-arrow orange">Let's work together <i class="fas fa-arrow-right"></i></a>

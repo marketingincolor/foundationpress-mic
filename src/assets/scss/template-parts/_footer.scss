@@ -82,18 +82,28 @@
 			background-color:$orange;
 			width: 350px;
 			display: inline-block;
-			padding: 10px 15px;
+			padding: 10px 20px 10px 15px;
 			text-align: right;
 			position: relative;
 			left: -10px;
 			font-size: 24px;
-			box-shadow: 5px 5px #484848;
+
 			@media(max-width:768px){
 				width: 300px;
 			}
+
 			@include breakpoint(small down){
 				width: 85%;
 			}
+
+			&:hover{
+				background-color:$green;
+			}
+
+			&:active{
+				top: 1px;
+			}
+
 			i{
 				font-size: 24px;
 			}

@@ -3,68 +3,113 @@
 /* ===================================== */
 section{
 	margin-left: 60px;
+
 	@include breakpoint(small only){
 		margin-left: 0;
 	}
 }
+
 .hide800{
 	@media(max-width:800px){
 		display:none;
 	}
 }
+
 .show800{
 	@media(min-width:801px){
 		display:none;
 	}
 }
+
 .absolute{
 	position:absolute;
 }
+
 .relative{
 	position:relative;
 }
+
 .left{
 	float:left;
 }
+
 .right{
 	float:right;
 }
+
 p{
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'futura-pt';
 	font-weight: 400;
 }
+
 blockquote p{
 	font-size: 24px;
 	line-height: 1.4;
 }
+
 h1,h2,h3,h4,h5,h6{
 	font-family: "clarendon-text-pro";
 }
+
 h1,h2,h3,h4,h5,h6,p,a,li,div{
 	color:$gray_text;
 }
+
 h1{
 	font-size: 50px;
 }
+
 h3{
 	font-size: 40px;
+	line-height: 1.2em;
 }
+
+.owl-carousel{
+
+	.owl-prev i,.owl-next  i {
+		transition: color 0.25s ease-in-out;
+	}
+	.owl-prev:hover i,.owl-next:hover i{
+		color:#b2b2b2;
+	}
+
+	.owl-prev:active i,.owl-next:active i{
+		color:#ddd;
+	}
+}
+
 .btn-arrow{
 	text-transform:uppercase;
 	font-family: "futura-pt";
 	font-weight: 600;
-	letter-spacing:2px;
-	transition:color 0.25s ease-in-out;
+	letter-spacing: 2px;
+	position: relative;
+	transition: all 0.25s ease-in-out;
+
+	i{
+		transition:color 0.25s ease-in-out;
+	}
+
 	&.white i{
 		color:$white;
 	}
+
 	&.orange i{
 		color:$orange;
 	}
-	// &:not(.contact-us):hover{
-	// 	color:$orange;
-	// }
+
+	&:not(.contact-us){
+
+		&:hover{
+		  color:$orange;
+
+		  i{
+		  	color:$orange;
+		  }
+		}
+		
+	}
 }
 
 .center-mobile{
@@ -74,20 +119,9 @@ h3{
 	}
 }
 
-// .icon{
-// 	height:100%;
-// 	margin:5px 15px 0 0;
-
-// 	@include breakpoint(small only){
-// 		height: auto;
-// 		margin: 0 0 20px;
-// 		width: 100%;
-// 		text-align: center;
-// 	}
-// }
-
 .subhead{
 	margin-bottom: 50px;
+	font-size: 20px;
 }
 
 .top-title{
@@ -99,6 +133,7 @@ h3{
 
 	h1{
 		color:$orange;
+		font-size: 65px;
 	}
 
 	blockquote{

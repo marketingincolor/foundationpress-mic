@@ -29,7 +29,7 @@
 		max-width: 850px;
 
 		@include breakpoint(medium down){
-			width: 40vw;
+			width: 35vw;
 		}
 	}
 
@@ -38,6 +38,7 @@
 		transform: translateY(0%);
 	}
 
+	// CONTACT FORM
 	.nf-form-cont .one-half{
 
 		@include breakpoint(small only){
@@ -55,71 +56,91 @@
 		border-bottom: 2px solid red;
 	}
 
-	input{
-		background-color:transparent;
-		border: none;
-		box-shadow: none;
-		border-bottom: 2px solid $green;
-		color: $gray_text;
-		font-size: 14px;
-		font-family: "futura-pt";
-
-		&:focus{
-			border:none;
-			border-bottom: 2px solid $green;
+	#nf-form-1-cont {
+		
+		textarea{
 			background-color: transparent;
+	    box-shadow: none;
+	    resize: none;
+	    border: 2px solid #adad00;
+		}
+
+		input{
+			background-color:transparent;
+			border: none;
 			box-shadow: none;
-		}
-	}
+			border-bottom: 2px solid $green;
+			color: $gray_text;
+			font-size: 18px;
+			font-family: "futura-pt";
 
-	#nf-field-4{
-		background-image: url(../images/arrow-right.png);
-		border: none;
-		background-repeat: no-repeat;
-		background-position: right 50%;
-		background-color: $orange;
-		color: white;
-		width: 350px;
-		text-align: right;
-		margin-left: -15%;
-		margin-top: 40px;
-		padding: 10px 50px 10px;
-		font-size: 24px;
-		box-shadow: 5px 5px #ddd;
-		cursor:pointer;
-		// transition: background-color 0.25s ease-in-out;
-
-		@media(max-width:768px){
-			width: 300px;
+			&:focus{
+				border:none;
+				border-bottom: 2px solid $green;
+				background-color: transparent;
+				box-shadow: none;
+			}
 		}
 
-		// &:hover{
-		// 	background-color:$green;
-		// }
+		#nf-field-4-container{
+			margin-bottom: 0;
+			@include breakpoint(small down){
+				margin-bottom: 20px;
+			}
+		}
+
+		#nf-field-4{
+			background-image: url(../images/arrow.png);
+			border: none;
+			background-repeat: no-repeat;
+			background-position: 95% 50%;
+			background-color: $orange;
+			color: white;
+			width: 350px;
+			text-align: right;
+			margin-left: -15%;
+			margin-top: 25px;
+			padding: 10px 50px 10px;
+			font-size: 24px;
+			box-shadow: 5px 5px #ddd;
+			cursor:pointer;
+
+			@media(max-width:768px){
+				width: 300px;
+			}
+
+			&:hover{
+				background-color:$green;
+			}
+
+			&:active{
+				top: 1px;
+			}
+		}
 	}
 
 	// Form Placeholder Styles
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	  color: $gray_text;
-	  font-size: 14px;
+	  font-size: 18px;
 	  font-family: "futura-pt";
 	}
 
 	::-moz-placeholder { /* Firefox 19+ */
 	  color: $gray_text;
-	  font-size: 14px;
+	  font-size: 18px;
 	  font-family: "futura-pt";
 	}
 
 	:-ms-input-placeholder { /* IE 10+ */
 	  color: $gray_text;
-	  font-size: 14px;
+	  font-size: 18px;
 	  font-family: "futura-pt";
 	}
 
 	:-moz-placeholder { /* Firefox 18- */
 	  color: $gray_text;
-	  font-size: 14px;
+	  font-size: 18px;
 	  font-family: "futura-pt";
 	}
 }

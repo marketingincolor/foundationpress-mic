@@ -9,7 +9,7 @@
 			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<h1>About MIC</h1>
 			</div>
-			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
+			<div class="small-10 small-offset-1 medium-8 large-7 large-offset-0 cell">
 				<blockquote class="orange">
 					<p>Since 1996, we’ve built a rock-solid reputation for delivering results, whether that’s helping our client partners win new business, influence a tough crowd, or be on the cutting edge.</p>
 					<a href="/contact-us" class="btn-arrow orange">Let's work together <i class="fas fa-arrow-right"></i></a>
@@ -20,9 +20,7 @@
 </section>
 
 <section class="history relative">
-	<div class="graphic absolute show-for-medium">
-		<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/about-history.png" class="absolute" alt="marketing in color - our history">
-	</div>
+	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/about-history.png" class="absolute show-for-medium" alt="marketing in color - our history">
 	<div class="grid-container full hide-for-medium">
 		<div class="grid-x">
 			<div class="small-12 cell">
@@ -36,17 +34,26 @@
 				<div class="grid-x">
 					<div class="cell medium-10">
 						<h3>Our History</h3>
-						<p>Marketing In Color was founded in 1996 by the wife and husband team of Cheryl and John Parrish. Bringing our ad agency experience with us, we quickly ramped up our home-brewed operation to produce broadcast TV and radio commercials, corporate videos, print ad campaigns, collateral, and more through other agencies, as well as direct clients.</p>
-						<p>As our company grew in the early 2000s, we entered the interactive CD-ROM business. In addition to ongoing client work, we focused highly on the dental industry, presenting at national tradeshows to market what we referred to as CD-brochures. These handy disks featured video and interactive content, customized to individual dental practices. The practices gave the disks to patients as a referral mechanism, to be shared with friends and family. Dental practices across the U.S., Canada, and the U.K. were counted among our clients.</p>
-						<p>As the Great Recession and declining CD industry took hold, Marketing In Color transformed into the company it is today – a full-service marketing enterprise with capabilities to support web development, brand strategy, graphic design, marketing automation, in-house video production, social media, and other services.</p>
-						<p>During this transition, Herb Young joined Marketing In Color as a partner and brought with him three decades of career corporate experience, where he served as a senior research analyst for several Fortune 500 consumer packaged goods companies.</p>
-						<p>In 2016, Charles Calise, another seasoned consumer packaged goods veteran, joined the team. Today, as Vice President of Operations, he handles all business development for Marketing In Color.</p>
-						<p>“There’s a reason we call ourselves a marketing company and not an ad agency,” says CEO Cheryl Parrish. “We’re not interested in creating flashy ads to win awards. We don’t even enter award contests. We’re too busy focusing our time getting super involved in the DNA of our clients, to help them find opportunities they’re too close to see for themselves.”</p>
-						<p>So, it’s not just advertising. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success.</p>
-					</div>
+						<p>Marketing in Color (MIC) was founded in 1996 by the wife and husband team of Cheryl and John Parrish. With their ad agency experience and entrepreneurial spirit, they crafted MIC into what it is today: a full-service marketing enterprise with capabilities to support web development, brand strategy, graphic design, marketing automation, in-house video production, social media, and other services.</p>
+						<a href="#" data-open="history-modal" class="btn-arrow orange">Read More <i class="fas fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
+	</div>
+	<!-- History Modal -->
+	<div class="reveal" id="history-modal" data-reveal>
+	  <h3>Our History</h3>
+	  	<p>Marketing In Color was founded in 1996 by the wife and husband team of Cheryl and John Parrish. Bringing our ad agency experience with us, we quickly ramped up our home-brewed operation to produce broadcast TV and radio commercials, corporate videos, print ad campaigns, collateral, and more through other agencies, as well as direct clients.</p>
+	  	<p>As our company grew in the early 2000s, we entered the interactive CD-ROM business. In addition to ongoing client work, we focused highly on the dental industry, presenting at national tradeshows to market what we referred to as CD-brochures. These handy disks featured video and interactive content, customized to individual dental practices. The practices gave the disks to patients as a referral mechanism, to be shared with friends and family. Dental practices across the U.S., Canada, and the U.K. were counted among our clients.</p>
+	  	<p>As the Great Recession and declining CD industry took hold, Marketing In Color transformed into the company it is today – a full-service marketing enterprise with capabilities to support web development, brand strategy, graphic design, marketing automation, in-house video production, social media, and other services.</p>
+	  	<p>During this transition, Herb Young joined Marketing In Color as a partner and brought with him three decades of career corporate experience, where he served as a senior research analyst for several Fortune 500 consumer packaged goods companies.</p>
+	  	<p>In 2016, Charles Calise, another seasoned consumer packaged goods veteran, joined the team. Today, as Vice President of Operations, he handles all business development for Marketing In Color.</p>
+	  	<p>“There’s a reason we call ourselves a marketing company and not an ad agency,” says CEO Cheryl Parrish. “We’re not interested in creating flashy ads to win awards. We don’t even enter award contests. We’re too busy focusing our time getting super involved in the DNA of our clients, to help them find opportunities they’re too close to see for themselves.”</p>
+	  	<p>So, it’s not just advertising. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success.</p>
+	  	<button class="close-button" data-close aria-label="Close modal" type="button">
+	  	  <span aria-hidden="true">&times;</span>
+	  	</button>
+	  </div>
 	</div>
 </section>
 

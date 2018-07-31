@@ -25,7 +25,7 @@
 			<div class="cell medium-8 gray-box small-10 small-offset-1 large-offset-0">
 				<div class="grid-x">
 					<div class="cell medium-8">
-						<h3>A type A company with a no BS approach.</h3>
+						<h3>We're a Type A company with a no BS approach.</h3>
 						<p>We are always fair, and honest. Because to us, personal integrity is more important than financial gain. We wish for our brand to better lives, make someone’s day, and positively impact every client we engage with. In fact, we strive to inspire, challenge, and show our true colors in everything we do. Because marketing is much more than building brands, it's also about building relationships.</p>
 						<a href="#" class="btn-arrow orange">More About Us <i class="fas fa-arrow-right"></i></a>
 					</div>
@@ -96,7 +96,7 @@
 		<div class="grid-x">
 			<div class="medium-6 medium-offset-3 small-10 small-offset-1 cell">
 				<h3 class="text-center">Tools of the Trade</h3>
-				<p class="text-center">Well-crafted work requires savvy tools. Here are some of the tools we use to ensure the success of every project.</p>
+				<p class="text-center subhead">Well-crafted work requires savvy tools. Here are some of the tools we use to ensure the success of every project.</p>
 			</div>
 			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
 				<div class="tools-carousel owl-carousel hide-for-small-only">
