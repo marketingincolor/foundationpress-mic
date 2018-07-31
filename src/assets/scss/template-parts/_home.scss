@@ -6,15 +6,11 @@
 	overflow: hidden;
 	background: $black;
 
-	@include breakpoint(small only){
-		height: 110vh;
-	}
-
 	video{
 		min-width: 100%;
 		min-height: 100%;
 		z-index: 0;
-		opacity: 1;
+		opacity: 0.6;
 	}
 
 	.logo{
@@ -30,14 +26,22 @@
 
     @include breakpoint(small only){
     	width:83.33333%;
-    	@include horizontal-center;
-    	bottom: 25px;
+    	@include absolute-center;
+    	top: 40%;
+    }
+
+    @media(max-width:320px){
+
     }
 
     h1{
 
     	@include breakpoint(small only){
     		line-height: 1.2em;
+    	}
+
+    	@media(max-width:320px){
+    		font-size: 40px;	
     	}
     }
 	}
@@ -64,28 +68,28 @@
 .who{
 	padding: 8% 0;
 
-	@media(max-width:800px){
-		padding: 0 0 8%;
+	@include breakpoint(small only){
+		padding: 0;
 	}
 
 	.gray-box{
 		background-color:#f4f4f4;
 		padding:20% 5% 5%;
 
-		@media(max-width:800px){
+		@include breakpoint(small only){
 			background-color: $white;
 			width: 100%;
 			padding: 10% 5% 0;
 		}
 
 		@include breakpoint(small only){
-			padding: 5% 0;
+			padding: 12% 0 10%;
 			width: 83.33333%;
 		}
 
 		.cell.medium-8{
 		
-			@media(max-width:800px){
+			@include breakpoint(small only){
 				width: 100%;
 			}
 		}
@@ -102,9 +106,12 @@
 
 	img.absolute{
 		right: 0;
-		top: 50%;
+		top: 40%;
 		max-width: 50%;
 		transform: translateY(-50%);
+		@media(max-width:800px){
+			max-width: 45%;
+		}
 	}
 }
 // What we do
@@ -125,9 +132,9 @@
 	.purple-box{
 		background-color: $purple;
 		height: 70%;
-		width: 40%;
+		width: 80%;
 		bottom: -30px;
-		left: -10px;
+		left: -30px;
 	}
 
 	.orbit-bg{
@@ -168,10 +175,6 @@
 
 	@include center-cover;
 	height: 100vh;
-
-	@media(max-width:800px){
-		height: 60vh;
-	}
 
 	@include breakpoint(small only){
 		height: auto;

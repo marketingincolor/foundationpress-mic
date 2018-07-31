@@ -151,6 +151,10 @@
 				text-align: center;
 			}
 
+			@include breakpoint(small only){
+				margin: 0;
+			}
+
 			li{
 				align-self:center;
 
@@ -210,6 +214,10 @@
 				@media(max-width:800px){
 					font-size: 14px;
 				}
+			}
+
+			@include breakpoint(small only){
+				margin: 0;
 			}
 
 			a{
