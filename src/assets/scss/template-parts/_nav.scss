@@ -6,7 +6,7 @@
 	width:60px;
 	height:100vh;
 	background-color:#333;
-	z-index: 6;
+	z-index: 11;
 	transition:width 0.4s ease-in-out;
 
 	@include breakpoint(small only){

@@ -4,7 +4,7 @@
 ?>
 
 <section class="video-hero relative">
-	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video2.mp4" autoplay="" loop="" muted="" preload="auto"></video>
+	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video3.mp4" autoplay="" loop="" muted="" preload="auto"></video>
 	<a href="<?php echo site_url(); ?>" class="logo absolute show-for-medium"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
 	
 	<aside class="meta absolute">
@@ -49,7 +49,7 @@
 				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
 				      </li>
-				      <li class="orbit-slide">
+				      <!-- <li class="orbit-slide">
 				        <figure class="orbit-figure">
 				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
@@ -58,13 +58,13 @@
 				        <figure class="orbit-figure">
 				          <img class="orbit-image" src="<?php bloginfo('template_directory'); ?>/dist/assets/images/what-we-do.png" alt="Space">
 				        </figure>
-				      </li>
+				      </li> -->
 				    </ul>
 				  </div>
 				  <nav class="orbit-bullets">
 				    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-				    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-				    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+				    <!-- <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+				    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button> -->
 				  </nav>
 				</div>
 			</div>
