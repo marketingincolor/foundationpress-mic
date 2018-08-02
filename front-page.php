@@ -4,7 +4,11 @@
 ?>
 
 <section class="video-hero relative">
-	<video src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video3.mp4" autoplay="" loop="" muted="" preload="auto"></video>
+	<!-- <video src=""></video> -->
+	<video autoplay="" playsinline loop="" muted="" preload="auto">
+	  <source src="<?php bloginfo('template_directory'); ?>/dist/assets/videos/mic-header-video3.mp4" type="video/mp4">
+	  <img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/home-hero.png" alt="Marketing in Color">
+	</video>
 	<a href="<?php echo site_url(); ?>" class="logo absolute show-for-medium"><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/white-logo.png" alt="<?php bloginfo('title'); ?>"></a>
 	
 	<aside class="meta absolute">
@@ -25,9 +29,9 @@
 			<div class="cell medium-8 gray-box small-10 small-offset-1 large-offset-0">
 				<div class="grid-x">
 					<div class="cell medium-8">
-						<h3>We're a Type A company with a no BS approach.</h3>
-						<p>We are always fair, and honest. Because to us, personal integrity is more important than financial gain. We wish for our brand to better lives, make someone’s day, and positively impact every client we engage with. In fact, we strive to inspire, challenge, and show our true colors in everything we do. Because marketing is much more than building brands, it's also about building relationships.</p>
-						<a href="#" class="btn-arrow orange">More About Us <i class="fas fa-arrow-right"></i></a>
+						<h3>We're a Type A company with a no B.S. approach.</h3>
+						<p>We are always fair and honest. Because to us, personal integrity is more important than financial gain. We wish for our brand to better lives, make someone’s day, and positively impact every client we engage with. In fact, we strive to inspire, challenge, and show our true colors in everything we do. Because marketing is much more than building brands, it's also about building long-lasting relationships.</p>
+						<a href="/about" class="btn-arrow orange">More About Us <i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -69,9 +73,9 @@
 				</div>
 			</div>
 			<div class="medium-5 medium-offset-0 small-10 small-offset-1 cell">
-				<h3>Strategize. Plan. Execute. Analyze. Repeat.</h3>
+				<h3>Strategize. Plan. Execute. Analyze. Refine &amp; Repeat.</h3>
 				<p>We're a team of experts who legitimately love what we do. We dive deep because it's how we ensure well-informed, effective marketing strategies. We only use measurable methods to ensure the results of our partnerships are clear. As our client and partner, your success is our success.</p>
-				<a href="/services" class="btn-arrow orange">Explore Our Services <i class="fas fa-arrow-right"></i></a>
+				<!-- <a href="/services" class="btn-arrow orange">Explore Our Services <i class="fas fa-arrow-right"></i></a> -->
 			</div>
 		</div>
 	</div>
@@ -83,8 +87,8 @@
 			<div class="medium-8 large-offset-0 large-6 small-10 small-offset-1 cell">
 				<aside class="meta">
 					<h3>Why We're Different</h3>
-					<p>We call ourselves a marketing company and not an ad agency. We’re not interested in creating flashy ads to win awards. We’re too busy focusing our time getting involved in the DNA of our clients, to help them find opportunities they’re too close to see for themselves. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success. That’s where we come in.</p>
-					<a href="/contact-us" class="btn-arrow orange">Do you have a story? We’d love to hear it <i class="fas fa-arrow-right"></i></a>
+					<p>We're not interested in creating flashy ads to win awards. We're too busy focusing our time getting involved in the DNA of our clients, to help them find opportunities too close to see for themselves. Ultimately, everything about your business impacts marketing. How you present yourself in communications – internally and externally. How people perceive your brand and company culture. What your goals (and dreams) are. How to keep up the morale of your team. Literally everything can be traced back to your overall success. That's where we come in. </p>
+					<a href="/contact-us" class="btn-arrow orange">Do you have a marketing challenge? We'd love to help.  <i class="fas fa-arrow-right"></i></a>
 				</aside>
 			</div>
 		</div>

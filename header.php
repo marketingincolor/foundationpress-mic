@@ -30,6 +30,7 @@
 		<ul class="nav-menu">
 			<li><a href="/">Home</a></li>
 			<li><a href="/about">About</a></li>
+			<li><a href="/our-process">Our Process</a></li>
 			<li><a href="/contact-us">Contact Us</a></li>
 		</ul>
 	</nav>

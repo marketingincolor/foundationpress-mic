@@ -20,7 +20,7 @@
 </section>
 
 <section class="history relative">
-	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/about-history.png" class="absolute show-for-medium" alt="marketing in color - our history">
+	<img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/about-history.jpg" class="absolute show-for-medium" alt="marketing in color - our history">
 	<div class="grid-container full hide-for-medium">
 		<div class="grid-x">
 			<div class="small-12 cell">

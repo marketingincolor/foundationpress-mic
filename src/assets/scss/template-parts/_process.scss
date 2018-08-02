@@ -1,0 +1,16 @@
+.page-template-page-our-process{
+
+	.history{
+		padding: 4% 0 13%;
+	}
+
+	.plan{
+		padding: 4% 0 10%;
+	}
+
+	.history,.plan{
+		@include breakpoint(small only){
+			padding: 0;
+		}
+	}
+}

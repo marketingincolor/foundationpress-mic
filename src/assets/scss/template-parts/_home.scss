@@ -6,6 +6,10 @@
 	overflow: hidden;
 	background: $black;
 
+	@media(max-height:425px){
+		height: 150vh;
+	}
+
 	video{
 		min-width: 100%;
 		min-height: 100%;
@@ -27,7 +31,7 @@
     @include breakpoint(small only){
     	width:83.33333%;
     	@include absolute-center;
-    	top: 40%;
+    	top: 45%;
     }
 
     @media(max-width:320px){
@@ -179,6 +183,18 @@
 	@include breakpoint(small only){
 		height: auto;
 		padding: 20% 0 30%;
+	}
+
+	@media(max-height:425px){
+		height:auto;
+		padding: 20% 0 30%;
+	}
+
+	.medium-8{
+
+		@media(max-height:415px){
+			width: 83.33333%;
+		}
 	}
 
 	.grid-container,.grid-x{

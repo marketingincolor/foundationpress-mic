@@ -45,8 +45,8 @@
   				<ul class="address">
   					<li><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/mic-bug.png" alt="Marketing in Color"></li>
 						<li>
-							<span>1515 N. Marion St <br class="show800">Tampa, FL 33602</span><br>
-							<span>(813)258-3771</span><br>
+							<span>1515 N. Marion St. <br class="show800">Tampa, FL 33602</span><br>
+							<span>(813) 258-3771</span><br>
 							<span>
 								<ul class="social-icons">
 									<li><a href="https://www.facebook.com/MarketingInColor/"><i class="fab fa-facebook-square"></i></a></li>
@@ -62,7 +62,7 @@
   				<p><img src="<?php bloginfo('template_directory'); ?>/dist/assets/images/bbb.png" alt="Better Business Bureau"></p>
 					<ul class="copyright">
 						<li>&copy; <?php echo date('Y'); ?> Marketing In Color</li> <span class="hide800">&nbsp;|&nbsp;</span>
-						<li><a href="#">Privacy Policy</a></li> <span class="hide800">&nbsp;|&nbsp;</span>
+						<li><a href="/privacy-policy">Privacy Policy</a></li> <span class="hide800">&nbsp;|&nbsp;</span>
 						<li><a href="http://marketingincolor.com/sharpspring-login/">SharpSpring Login</a></li>
 					</ul>
   			</div>

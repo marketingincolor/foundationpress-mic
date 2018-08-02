@@ -38,7 +38,7 @@ section{
 }
 
 p{
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'futura-pt';
 	font-weight: 400;
 }
@@ -97,6 +97,10 @@ h3{
 
 	&.orange i{
 		color:$orange;
+	}
+
+	&:focus{
+		color: $orange;
 	}
 
 	&:not(.contact-us){
