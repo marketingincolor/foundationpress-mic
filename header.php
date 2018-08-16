@@ -59,7 +59,7 @@
 			<li><a href="/our-process">Our Process</a></li>
 			<li><a href="/contact-us">Contact Us</a></li>
 		</ul>
-	</nav>
+	</nav> 
 
 	<!-- Mobile Menu -->
 	<nav class="mobile-menu">
