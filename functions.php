@@ -54,5 +54,11 @@ require_once( 'library/responsive-images.php' );
 /** Team data function */
 require_once( 'library/team-data.php' );
 
+/** SharpSpring functions */
+require_once( 'library/sharpspring.php' );
+
+/** All Custom Shortcodes */
+require_once( 'library/shortcodes.php' );
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
