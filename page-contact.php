@@ -1,17 +1,18 @@
 <?php 
 	/* Template Name: Contact */
 	get_header();
+	if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 
 <section class="top-title">
 	<div class="grid-container">
 		<div class="grid-x">
 			<div class="small-10 small-offset-1 large-12 large-offset-0 cell">
-				<h1>Contact Us</h1>
+				<h1><?php the_title(); ?></h1>
 			</div>
 			<div class="small-10 small-offset-1 medium-8 large-7 large-offset-0 cell">
 				<blockquote class="orange">
-					<p>You bring your black and white ideas. We’ll bring the color. And let’s see what we can accomplish together.</p>
+					<?php the_content(); ?>
 				</blockquote>
 			</div>
 		</div>
@@ -41,4 +42,8 @@
 </section>
 
 
-<?php get_footer(); ?>
+<?php 
+	endwhile;
+  endif;
+	get_footer();
+?>

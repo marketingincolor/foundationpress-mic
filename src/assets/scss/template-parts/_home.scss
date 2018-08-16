@@ -9,6 +9,9 @@
 	@media(max-height:425px){
 		height: 150vh;
 	}
+	@media(max-width:320px){
+		height: 115vh;
+	}
 
 	video{
 		min-width: 100%;
