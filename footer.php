@@ -68,7 +68,7 @@
   				</ul>
   			</div>
   			<div class="medium-7 cell text-right bbb-copy relative">
-  				<p><a href="https://www.bbb.org/west-florida/business-reviews/health-and-wellness/evergreen-wellness-in-tampa-fl-90330224" target="_blank"><img src="<?php the_field('footer_bbb_logo',$footer_id); ?>" alt="Better Business Bureau"></a></p>
+  				<p><a href="https://www.bbb.org/us/fl/tampa/profile/marketing-consultant/marketing-in-color-inc-0653-90330219" target="_blank"><img src="<?php the_field('footer_bbb_logo',$footer_id); ?>" alt="Better Business Bureau"></a></p>
 					<ul class="copyright">
 						<li>&copy; <?php echo date('Y'); ?> <?php the_field('footer_copyright',$footer_id); ?></li> <span class="hide800">&nbsp;|&nbsp;</span>
 						<li><a href="<?php the_field('footer_privacy_link',$footer_id); ?>"><?php the_field('footer_privacy_text',$footer_id); ?></a></li> <span class="hide800">&nbsp;|&nbsp;</span>
@@ -79,7 +79,6 @@
   	</div>
   </div>
 </section>
-
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
   </div><!-- Close off-canvas content -->
